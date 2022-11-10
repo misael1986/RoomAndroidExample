@@ -27,6 +27,7 @@ android {
 
 dependencies {
     def kotlin_version="2.4.3"// ROOM
+
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation"org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"// ROOM
     implementation 'androidx.appcompat:appcompat:1.0.2'

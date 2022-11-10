@@ -33,7 +33,6 @@ class MainActivity : AppCompatActivity() {
             }
         })
 
-
         floatingActionButton.setOnClickListener {
             val intent = Intent(this@MainActivity,AddUserActivity::class.java)
             startActivity(intent)
